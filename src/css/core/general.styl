@@ -1,0 +1,45 @@
+/*
+ * General Config
+ */
+
+$transition-default = $transition.time.default
+$transition-slow = $transition.time.slow
+$transition-fast = $transition.time.fast
+
+$body-color = $color.white
+$body-background = $color.sea-green
+
+
+/*
+ * General Styles
+ */
+
+::selection
+	color $body-color
+	background $body-background
+
+// @stylint off
+body
+	color $body-color
+	background $body-background urlBg('mantis-mobile.jpg') center center no-repeat
+	background-size cover
+
+	@media $from.lg
+		background-image urlBg('mantis.jpg')
+
+h1
+	animation $transition-slow fadeInRight
+
+h2
+	animation $transition-slow fadeInLeft
+
+p
+	animation $transition-slow fadeInUp
+// @stylint on
+
+.tag
+	display inline-block
+	margin 0 15px 15px 0
+	padding 5px
+	background alpha($body-background, 25%)
+	border-radius 3px

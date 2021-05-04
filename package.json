@@ -1,0 +1,69 @@
+{
+  "name": "ProjectTools",
+  "version": "2.5.2",
+  "description": "A modern kick-starter for front-end development packed with well-chosen tools",
+  "main": "gulpfile.babel.js",
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build",
+    "clean": "gulp clean"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "template",
+    "boilerplate",
+    "skeleton",
+    "scaffold",
+    "starter"
+  ],
+  "browserslist": [
+    "last 2 version",
+    "> 1%",
+    "IE 10"
+  ],
+  "author": "Filip Crijanovschi",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "@babel/register": "^7.4.0",
+    "autoprefixer": "^9.7.4",
+    "babel-eslint": "^10.0.1",
+    "babelify": "^10.0.0",
+    "browser-sync": "^2.26.3",
+    "dotenv": "^7.0.0",
+    "eslint": "^7.25.0",
+    "eslint-config-mantis": "^1.3.0",
+    "gulp": "^4.0.0",
+    "gulp-bro": "^1.0.3",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-eslint": "^5.0.0",
+    "gulp-group-css-media-queries": "^1.2.2",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-newer": "^1.4.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-pug": "^4.0.1",
+    "gulp-pug-linter": "^1.2.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-stylint": "^4.0.2",
+    "gulp-stylus": "^2.7.0",
+    "gulp-svg-symbols": "^3.2.3",
+    "gulp-uglify": "^3.0.2",
+    "gulp-webp": "^4.0.1",
+    "gulp-webp-css": "^1.1.0",
+    "mantis-equalizr": "^1.5.0",
+    "mantis-grid": "^0.5.1",
+    "mantis-layers": "^0.1.0",
+    "mantis-querist": "^0.5.0",
+    "mantis-toolkit": "^0.2.0",
+    "puglint-stylish": "^1.0.1",
+    "rimraf": "^2.6.3",
+    "stylus": "0.54.5"
+  }
+}

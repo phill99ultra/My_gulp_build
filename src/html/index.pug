@@ -1,0 +1,22 @@
+extends layouts/default
+
+block content
+	main.grid
+		section.grid__item-sm
+			h1=title
+			h2=description
+
+			p
+				each tag in tags
+					a.tag(title=tag[0], href=tag[1], target='_blank')=`#${tag[0]}`
+
+			p
+				+icon('github')
+				|&nbsp;
+				small See
+					u
+						a(
+							title=title,
+							href=url,
+							target='_blank'
+						) Mantis Starter on GitHub.
