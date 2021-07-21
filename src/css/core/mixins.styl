@@ -1,0 +1,9 @@
+font-face($font-family, $url, $weight)
+    @font-face {
+        font-family: '#{$font-family}';
+        src: url('../../assets/fonts/#{$url}.woff') format('woff'),
+        url('../#{$url}.woff') format('woff');
+        font-weight: #{$weight};
+        font-display: swap;
+        font-style: normal;
+    }

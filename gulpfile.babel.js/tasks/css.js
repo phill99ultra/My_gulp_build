@@ -2,14 +2,13 @@ import {src, dest} from 'gulp';
 import plumber from 'gulp-plumber';
 import stylint from 'gulp-stylint';
 import stylus from 'gulp-stylus';
-import toolkit from 'mantis-toolkit';
-import equalizr from 'mantis-equalizr';
-import querist from 'mantis-querist';
+import rupture from 'rupture';
 import grid from 'mantis-grid';
 import layers from 'mantis-layers';
 import postcss from 'gulp-postcss';
 import autoprefixer from 'autoprefixer';
 import sourcemaps from 'gulp-sourcemaps';
+import toolkit from 'mantis-toolkit';
 import cleanCSS from 'gulp-clean-css';
 import rename from 'gulp-rename';
 import group_media_queries from 'gulp-group-css-media-queries';
@@ -30,9 +29,8 @@ export default function cssTask (done) {
 		.pipe(sourcemaps.init({loadMaps: true}))
 		.pipe(stylus({
 			use: [
-				toolkit(),
-				equalizr(),
-				querist(),
+				rupture(),
+				toolkit(),															
 				grid(),
 				layers()
 			],

@@ -21,11 +21,10 @@ $body-background = $color.sea-green
 // @stylint off
 body
 	color $body-color
-	background $body-background urlBg('mantis-mobile.jpg') center center no-repeat
 	background-size cover
-
-	@media $from.lg
-		background-image urlBg('mantis.jpg')
+	// background-image urlBg('mantis.jpg')
+	background $body-background urlBg('mantis.jpg') center center no-repeat
+	// +below(960px)
 
 h1
 	animation $transition-slow fadeInRight

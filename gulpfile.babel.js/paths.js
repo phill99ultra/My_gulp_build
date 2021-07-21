@@ -13,6 +13,11 @@ const src = './src/',
 		dest: `${dest}css/`
 	},
 
+	fonts = {		
+		src: `${src}assets/fonts/*.{ttf,woff}`,
+		dest: `${dest}fonts/`
+	},
+
 	js = {
 		watch: `${src}js/**/*.js`,
 		src: `${src}js/*.js`,
@@ -43,4 +48,4 @@ const src = './src/',
 		dest: dest
 	};
 
-export {src, dest, html, css, js, img, sprite, assets};
+export {src, dest, html, css, js, fonts, img, sprite, assets};

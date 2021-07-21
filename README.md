@@ -1,30 +1,3 @@
-<img src="logo.png" width="200">
-
-Mantis Starter
-==============
-
-> A modern kick-starter for front-end development packed with well-chosen tools
-
-
-Get started
------------
-
-First of all, you need to have installed [Node.js](http://nodejs.org/) globally.
-Then you can install by running the following command in your terminal:
-
-```shell
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/acauamontiel/mantis-starter/master/install.sh)"
-```
-
-Otherwise you can install *"manually"* doing the following steps:
-
-- Clone the repo: `git clone git@github.com:acauamontiel/mantis-starter.git my-project`
-- Enter the folder: `cd my-project`
-- Install Node dependencies: `yarn` or `npm install`
-
-But I recommend you to install the easiest way.
-
-
 Running
 -------
 
@@ -107,12 +80,3 @@ logo.png
 logo.svg
 package.json
 README.md
-```
-
-
-License
--------
-
-© 2016 - 2020 [Acauã Montiel](http://acauamontiel.com.br)
-
-[MIT License](http://acaua.mit-license.org/)
